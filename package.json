@@ -1,6 +1,6 @@
 {
   "name": "notee",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Be notified at the end of long running commands.",
   "main": "src/index.js",
   "author": "Yoann Moinet <yo@nnmoi.net>",
