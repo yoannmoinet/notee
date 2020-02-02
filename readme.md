@@ -1,6 +1,8 @@
 # Notee
 Be notified at the end of long running commands.
 
+![Notee yarn install](/assets/notee.gif)
+
 ## How to install
 
 ```bash
