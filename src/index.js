@@ -16,7 +16,7 @@ const end = (code) => {
 
 const main = () => {
     const run = cp.spawn(commandMain, commandArgs);
-    console.log('Run', commandMain, commandArgs);
+
     run.stdout.on('data', (data) => {
         process.stdout.write(data.toString());
     });
@@ -27,6 +27,7 @@ const main = () => {
         process.stderr.write(error);
         end(1);
     });
+
     run.on('close', end);
 };
 
