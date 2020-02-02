@@ -1,6 +1,5 @@
 # Notee
 Be notified at the end of long running commands.
----
 
 ## How to install
 
