@@ -11,7 +11,7 @@ npm install -g notee
 
 ## How to use
 
-Simply prefix your commands with `n` to get a notification at the end of a long running command.
+Simply prefix your commands with `n` to get a notification once it completes.
 
 ```bash
 n git clone git@github.com:yoannmoinet/notee.git
