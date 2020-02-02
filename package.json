@@ -1,0 +1,15 @@
+{
+  "name": "notee",
+  "version": "1.0.0",
+  "description": "Be notified at the end of long running commands.",
+  "main": "src/index.js",
+  "author": "Yoann Moinet <yo@nnmoi.net>",
+  "license": "MIT",
+  "bin": {
+    "n": "src/index.js"
+  },
+  "dependencies": {
+    "node-notifier": "6.0.0",
+    "yargs": "15.1.0"
+  }
+}
