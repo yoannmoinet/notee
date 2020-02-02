@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-const command = require('yargs').argv._;
 const cp = require('child_process');
 const nn = require('node-notifier');
 
-const commandMain = command[0];
-const commandArgs = command.splice(1);
+const command = process.argv;
+const commandMain = command[2];
+const commandArgs = command.splice(3);
 
 const end = (code) => {
     nn.notify({
@@ -16,7 +16,7 @@ const end = (code) => {
 
 const main = () => {
     const run = cp.spawn(commandMain, commandArgs);
-
+    console.log('Run', commandMain, commandArgs);
     run.stdout.on('data', (data) => {
         process.stdout.write(data.toString());
     });

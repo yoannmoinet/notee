@@ -9,7 +9,6 @@
     "n": "src/index.js"
   },
   "dependencies": {
-    "node-notifier": "6.0.0",
-    "yargs": "15.1.0"
+    "node-notifier": "6.0.0"
   }
 }
