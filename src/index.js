@@ -23,9 +23,5 @@ const end = (code) => {
     process.exit(code);
 };
 
-const main = () => {
-    const run = cp.spawn(commandMain, commandArgs, { stdio: [ 0, 1, 2 ] });
-    run.on('close', end);
-};
-
-main();
+const run = cp.spawn(commandMain, commandArgs, { stdio: [ 0, 1, 2 ] });
+run.on('close', end);
