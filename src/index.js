@@ -15,19 +15,7 @@ const end = (code) => {
 };
 
 const main = () => {
-    const run = cp.spawn(commandMain, commandArgs);
-
-    run.stdout.on('data', (data) => {
-        process.stdout.write(data.toString());
-    });
-    run.stderr.on('data', (data) => {
-        process.stderr.write(data.toString());
-    });
-    run.on('error', (error) => {
-        process.stderr.write(error);
-        end(1);
-    });
-
+    const run = cp.spawn(commandMain, commandArgs, { stdio: [ 0, 1, 2 ] });
     run.on('close', end);
 };
 
