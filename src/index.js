@@ -10,7 +10,7 @@ const end = (code) => {
     let symbol = '✅';
     let status = 'succeed';
 
-    if (code > 0) {
+    if (code !== 0) {
         symbol = '💥';
         status = 'failed';
     }
