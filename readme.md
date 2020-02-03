@@ -5,9 +5,18 @@ Be notified at the end of long running commands.
 
 ## How to install
 
+- **Homebrew**
+```bash
+brew install yoannmoinet/brews/notee
+```
+
+- **Yarn v1**
 ```bash
 yarn global add notee
-# or
+```
+
+- **NPM**
+```bash
 npm install -g notee
 ```
 
