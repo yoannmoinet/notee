@@ -5,6 +5,17 @@
   "main": "src/index.js",
   "author": "Yoann Moinet <yo@nnmoi.net>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoannmoinet/notee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoannmoinet/notee/issues"
+  },
+  "homepage": "https://github.com/yoannmoinet/notee",
+  "files": [
+    "bin/*"
+  ],
   "bin": {
     "n": "src/index.js"
   },
