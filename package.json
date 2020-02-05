@@ -16,8 +16,14 @@
   "files": [
     "bin/*"
   ],
+  "scripts": {
+    "test": "ava"
+  },
   "bin": {
     "n": "src/index.js"
+  },
+  "devDependencies": {
+    "ava": "3.2.0"
   },
   "dependencies": {
     "node-notifier": "6.0.0"
