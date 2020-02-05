@@ -1,6 +1,9 @@
 # Notee
 Be notified at the end of long running commands.
 
+[![npm](https://img.shields.io/npm/v/notee.svg)](https://npmjs.org/package/notee)
+[![npm](https://img.shields.io/npm/dm/notee.svg)](https://npmjs.org/package/notee)
+
 ![Notee yarn install](/assets/notee.gif)
 
 ## How to install
